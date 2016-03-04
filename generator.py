@@ -61,7 +61,7 @@ filename = 'input.inp'
 try:
   os.remove(filename)
 except OSError:
-  print 'ERROR: failed to remove old "input.inp" file.'
+  pass
 
 # Create a new 'input.inp' file and write out the matrix data
 with open(filename, 'w+') as f:
