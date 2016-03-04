@@ -21,8 +21,8 @@ elif not sys.argv[2].isdigit():
 # Graph will be a list of tuples
 graph = []
 
-maxrange = int(sys.argv[1])
-size = int(sys.argv[2])
+maxrange = int(sys.argv[1]) # The range for the random numbers
+size = int(sys.argv[2]) # The size of the matrix (size by size)
 
 # Creates a tuple of random x and random y coordinates
 def get_random_tuple():
